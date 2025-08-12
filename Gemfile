@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-ruby "3.3.0"
+ruby "3.3.9"
 # Add or update other required gems as needed
 gem "jekyll-theme-chirpy", "~> 7.3", ">= 7.3.1"
 gem "jekyll", "~> 4.3"
