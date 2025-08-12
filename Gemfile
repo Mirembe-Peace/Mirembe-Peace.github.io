@@ -3,7 +3,8 @@
 source "https://rubygems.org"
 
 gem "jekyll-theme-chirpy", "~> 7.3", ">= 7.3.1"
-
+gem "jekyll"
+gem "html-proofer"
 gem "jekyll", "~> 4.3"
 # Add or update other required gems as needed
 
