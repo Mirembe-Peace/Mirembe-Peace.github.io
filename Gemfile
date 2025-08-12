@@ -3,13 +3,11 @@
 source "https://rubygems.org"
 
 ruby "3.3.0"
-
-gem "jekyll-theme-chirpy", "~> 7.3", ">= 7.3.1"
-gem "jekyll"
-gem "html-proofer"
-gem "jekyll", "~> 4.3"
-gem "bundler", "~> 2.7"
 # Add or update other required gems as needed
+gem "jekyll-theme-chirpy", "~> 7.3", ">= 7.3.1"
+gem "jekyll", "~> 4.3"
+gem "html-proofer"
+gem "bundler", "~> 2.7"
 
 gem "html-proofer", "~> 5.0", group: :test
 
