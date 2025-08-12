@@ -39,14 +39,14 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
-      - name: Unset Bundler frozen option
-        run: bundle config set frozen false
-
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.3
           bundler-cache: true
+
+      - name: Unset Bundler frozen option
+        run: bundle config set frozen false
 
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
